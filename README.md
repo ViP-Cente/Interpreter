@@ -1,8 +1,10 @@
 # Interpreter
 1 Introduction
+
 1.1 Project Overview
 So, this project is an interpreter for the mock coding language X. This interpreter project has a 
 virtual machine where it will execute functions written on files that are in the mock language X.
+
 1.2 Technical Overview
 So we have the classes runTimeStack, VirtualMachine, Interpreter, ByteCodeLoader, and all the 
 ByteCode classes. The runTimeStack is essentially the core of this project. The runtimestack class 
